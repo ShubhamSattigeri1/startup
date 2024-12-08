@@ -33,3 +33,4 @@ if st.button("Submit"):
         st.success("Hi")
 else:
     st.error("The Details Filled are incomple or \n try presing Enter On each line of the form.")    
+    print("erro2")
