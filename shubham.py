@@ -11,7 +11,7 @@ valid_years = ["1", "2", "3", "4"]
 if current_year not in valid_years:
     st.error("Enter a valid year (1, 2, 3, or 4) that you have been to college.")
 else:
-    sum+=1
+    sum += 1
 contact = st.text_input("Enter Your Contact Number: ")
 
 if len(contact) != 10 and contact:
@@ -32,5 +32,5 @@ if st.button("Submit"):
     if sum == 4: 
         st.success("Hi")
 else:
-    st.error("The Details Filled are incomple or \n try presing Enter On each line of the form.")    
-    print("erro2")
+    st.error("The Details Filled are incomplete or \n try pressing Enter On each line of the form.")    
+    print("error")
